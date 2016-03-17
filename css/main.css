@@ -17,6 +17,9 @@ a {
 		margin: 0;		
 		}	
 
+#logotipo { text-align:center;
+		margin: 0;		
+		}	
 header 
 
 		{ 
@@ -153,14 +156,14 @@ footer
 	background-image: url('../img/twitter.png');
 }	
 
-.carrera-info {
+.product-info {
 	
 	list-style: none;
 	padding: 0;
 	margin: center;
 	font-size: 1.2em;
 	}
-.carrera-info a {
+.product-info a {
 	
 	display: block;
 	min-height:  60px;
@@ -169,12 +172,12 @@ footer
 	padding:  0 0 0 40px;
 	margin: 0 0 20px;
 }
-.carrera-info li.telecomunicaciones a{
+.product-info li.telecomunicaciones a{
 	background-image: url('../img/telecomunicaciones.jpg');
 }
-.carrera-info li.desarrolloempresarial a{
+.product-info li.desarrolloempresarial a{
 	background-image: url('../img/desarrolloempresarial.png');
 }	
-.carrera-info li.biologiamarina a{
+.product-info li.biologiamarina a{
 	background-image: url('../img/biologiamarina.jpg');
 }	
