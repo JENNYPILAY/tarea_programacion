@@ -34,9 +34,7 @@ header
 		 { margin: 0;
 		 	padding: :0;
 		 	list-style:none;
-}
-
-
+		 }
 
 
 /***********     **********/
@@ -123,6 +121,13 @@ footer
 .photo
 {
 	display: block;
+	max-width: 800px;/**tamaño de foto**/
+	margin: 0 auto 50px; /***centrado de la imagen**/
+	border-radius: 25%; /**borde de la imagen**/
+}
+.photos
+{
+	display: block;
 	max-width: 800px;  /**tamaño de foto**/
 	margin: 0 auto 50px; /***centrado de la imagen**/
 	border-radius: 25%; /**borde de la imagen**/
@@ -172,11 +177,11 @@ footer
 	padding:  0 0 0 40px;
 	margin: 0 0 20px;
 }
-.product-info li.telecomunicaciones a{
-	background-image: url('../img/telecomunicaciones.jpg');
+.product-info li.boss a{
+	background-image:"c:tarea/reffboss";
 }
 .product-info li.desarrolloempresarial a{
-	background-image: url('../img/desarrolloempresarial.png');
+	background-image: ('../img/desarrolloempresarial.png');
 }	
 .product-info li.biologiamarina a{
 	background-image: url('../img/biologiamarina.jpg');
